@@ -100,6 +100,7 @@ Open:
 
 ⸻
 
+<<<<<<< HEAD
 Testing approach
 
 Domain logic is tested in isolation, without infrastructure dependencies.
@@ -141,3 +142,11 @@ Consigliato (facoltativo ma molto efficace):
 ```md
 ## Demo UI
 ![Notes demo](docs/images/ui.png)
+=======
+- ## Demo UI
+![Notes demo](docs/images/ui.png)
+
+## Links
+- https://www.cobracco.it
+- https://www.linkedin.com/company/cobracco
+>>>>>>> 504683a0ca8fec1ae7f7b245dfac9e52cbfda32b
