@@ -21,23 +21,23 @@ It exists to demonstrate **structure, reasoning, and architectural discipline**.
 
 ## Architecture at a glance
 
-┌─────────────┐
-│  Frontend   │  (Vite + React)
-└──────┬──────┘
-       │ HTTP
-┌──────▼──────┐
-│ API Layer   │  (.NET Minimal API)
-└──────┬──────┘
-       │ Use cases
-┌──────▼──────┐
-│ Application │
-├─────────────┤
-│   Domain    │
-└──────┬──────┘
-       │ Ports
-┌──────▼───────┐
-│Infrastructure│
-└──────────────┘
+## Architecture at a glance
+
+```mermaid
+flowchart TD
+    FE["Frontend\n(Vite + React)"]
+    API["API Layer\n(.NET Minimal API)"]
+    APP["Application\n(Use Cases)"]
+    DOMAIN["Domain"]
+    INFRA["Infrastructure"]
+    PORTS["Ports"]
+
+    FE -->|HTTP| API
+    API --> APP
+    APP --> DOMAIN
+    APP --> PORTS
+    PORTS --> INFRA
+```	
 
 ---
 
