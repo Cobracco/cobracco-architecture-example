@@ -35,6 +35,9 @@ The Vite dev server proxies `/api` to `http://localhost:5000`.
 - `GET /api/notes` – list notes
 - `POST /api/notes` – create note
 
+- ## Demo UI
+![Notes demo](docs/images/ui.png)
+
 ## Links
 - https://www.cobracco.it
 - https://www.linkedin.com/company/cobracco
